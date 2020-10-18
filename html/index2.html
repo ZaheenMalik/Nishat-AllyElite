@@ -23,7 +23,25 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <!-- awesome fonts -->
 <script defer src="https://use.fontawesome.com/release/v5.0.7/js/all.js"></script>
+JavaScript
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
 
+<script>
+console.log("Hi");
+var $jq = jQuery.noConflict();
+$jq(document).ready(function(){
+
+$jq('.items').slick({
+infinite: true,
+slidesToShow: 4,
+slidesToScroll: 3
+});
+});
+</script>
 
 
   </head>
@@ -163,7 +181,7 @@
 <!-------------------------anything-------------------->
  <li class="dropdown nav-item">  <td><a class="navcntnt dropdown dropbtn nav-link" href="#">anything</a></td></li>
   <!--------------------------anything2---------------->
-<!-- <li class="dropdown nav-item"> <td><a class="navcntnt dropdown dropbtn nav-link " href="#">anthing 2</a></td></li> --> -->
+<!-- <li class="dropdown nav-item"> <td><a class="navcntnt dropdown dropbtn nav-link " href="#">anthing 2</a></td></li> --> 
 
 
 
@@ -251,7 +269,18 @@ window.requestAnimationFrame(updateLax)
        <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"></div>
        <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"></div>
        <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"></div>
-   </div> --> 
+   </div> -->
+
+   <!-- -Slick Carousel Slider-->
+     <div class="items" autoplay data-interval="1000">
+          <div><img class="shadow p-3 mb-5 bg-white rounded"src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/preview/02_o_car.jpg" width="150px" height="200px" ></div>
+          <div><img class="shadow p-3 mb-5 bg-white rounded"src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/preview/03_r_car.jpg"width="150px" height="200px"></div>
+          <div><img class="shadow p-3 mb-5 bg-white rounded" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"width="150px" height="200px"></div>
+          <div><img class="shadow p-3 mb-5 bg-white rounded"src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"width="150px" height="200px"></div>
+          <div><img class="shadow p-3 mb-5 bg-white rounded"src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"width="150px" height="200px"></div>
+          <div><img class="shadow p-3 mb-5 bg-white rounded" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"width="150px" height="200px"></div>
+          <div><img class="shadow p-3 mb-5 bg-white rounded" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"width="150px" height="200px"></div>
+      </div>
 
 
 
