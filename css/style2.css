@@ -513,7 +513,7 @@ text-decoration: none;
 
 .cosmos{position: relative;
   top: 130px;
-left: 135px;
+left: 122px;
 height: 600px;
 width: 80%;
 align-items: center;
@@ -526,7 +526,7 @@ position:relative;
 
 .company-name{position:relative;
   color: white;
-  left: 540px;
+  left: 500px;
     bottom:400px;}
 
 
@@ -629,8 +629,8 @@ position:relative;
             bottom: 350px;
           }
 .captions{position: relative;
-  bottom: 890px;
-  left: 1000px;
+  bottom: 860px;
+  left: 900px;
 color: white;
 }
 
@@ -676,7 +676,7 @@ background-color: transparent;
 color: white;}
 
 
-  .firstpart{margin-top: 80px; }
+  /* .firstpart{margin-top: 80px; } */
 .form-control-lg{padding-bottom: 150px;}
 
  .btn-outline-light{margin-top: 60px;
@@ -687,3 +687,5 @@ width: 40%;
 font-weight: bold;
 }
 /*********************footer****************************************/
+.quicklinkcontent{position: relative;
+top: 90px;}
