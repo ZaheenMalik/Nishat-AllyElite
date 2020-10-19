@@ -22,7 +22,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <!-- awesome fonts -->
-<script defer src="https://use.fontawesome.com/release/v5.0.7/js/all.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 JavaScript
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
@@ -179,9 +179,9 @@ slidesToScroll: 3
 </div></li>
 
 <!-------------------------anything-------------------->
- <li class="dropdown nav-item">  <td><a class="navcntnt dropdown dropbtn nav-link" href="#">anything</a></td></li>
+ <li class="dropdown nav-item">  <td><a class="navcntnt dropdown dropbtn nav-link" href="#">Industries</a></td></li>
   <!--------------------------anything2---------------->
-<!-- <li class="dropdown nav-item"> <td><a class="navcntnt dropdown dropbtn nav-link " href="#">anthing 2</a></td></li> --> 
+<!-- <li class="dropdown nav-item"> <td><a class="navcntnt dropdown dropbtn nav-link " href="#">anthing 2</a></td></li> -->
 
 
 
@@ -202,7 +202,7 @@ slidesToScroll: 3
         <a class="resource-content"href="#">Video</a>
       </div>
       </li>
-<td><a href="#"><button class="  btncntct"type="btncntct" name="button"><strong><i class="fas fa-angle-double-right"></i>Get In Touch</strong></button></a></td>
+<td><a href="#contact"><button class="  btncntct"type="btncntct" name="button"><strong>Get In Touch</strong></button></a></td>
 </tr>
 
 </div>
@@ -282,18 +282,8 @@ window.requestAnimationFrame(updateLax)
           <div><img class="shadow p-3 mb-5 bg-white rounded" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"width="150px" height="200px"></div>
       </div>
 
-
-
-
-
-
-
-
-
-
-
-
 </section>
+
 <section class="secondhomepage2">
 
   <h2 class="homepageheading2">Our Core Competencies</h2>
@@ -460,7 +450,7 @@ window.requestAnimationFrame(updateLax)
 <!-- ---------------------------------------contact------------------- -->
 
 
- <section class=" container5 contact">
+ <section id="contact" class=" container5 contact">
   <div class="row">
 
     <div class=" col-lg-6">
@@ -470,11 +460,11 @@ window.requestAnimationFrame(updateLax)
 <div class="contactinfo1">
   <h3 class="cntcthead">CONTACT US</h3>
 
-    <h6 class="emailinfo">allie-elite@gmail.com</h6>
+    <h6 class="emailinfo"><i class="far fa-envelope"></i>allie-elite@gmail.com</h6>
 
-    <h6 class="number">123-456-7890</h6>
+    <h6 class="number"><i class="fas fa-phone-volume"></i>123-456-7890</h6>
 
-      <h6 class="emailinfo2">zaheen21020@gmail.com</h6>
+      <h6 class="emailinfo2"><i class="far fa-envelope"></i>zaheen21020@gmail.com</h6>
 
 
 </div>
@@ -555,7 +545,7 @@ window.requestAnimationFrame(updateLax)
 
     <div class="col-lg-4 quicklinkcontent">
       <h3 class="quicklinkservice">Services</h3>
-      <table class="quickservicetable">
+      <table class="quickservicetable" style="table-layout: fixed; width:500px;">
         <thead>
           <th>Technology</th>
           <th>Expertise</th>
@@ -647,6 +637,23 @@ window.requestAnimationFrame(updateLax)
 
 
     </div>
+    <div class="quicklinkcontent">
+<table class="quickcontacttable" style="table-layout: fixed; width:500px;">
+  <h3 class="quicklinkcontact">Contact</h3>
+  <tr>
+    <td><a class="sql"href="#"><i class="far fa-envelope" style="color:black;"></i>allie-elite@gmail.com</a></td>
+
+  </tr>
+  <tr>
+    <td><a class="sql"href="#"><i class="fas fa-phone-volume" style="color:black;"></i>123-456-7890</a></td>
+  </tr>
+
+  <tr>
+    <td><a class="sql"href="#"><i class="far fa-envelope" style="color:black;"></i>zaheen@gmail.com</a></td>
+  </tr>
+
+</table>
+  </div>
   </div>
 
 

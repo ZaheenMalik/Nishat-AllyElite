@@ -693,10 +693,10 @@ font-size: 15px;}
 .quickservicetable{border-collapse: separate;
   border-spacing: 20px 20px;
 position: relative;
-left: 280px;}
+left: 180px;}
 
 .quicklinkservice{position: relative;
-left: 400px;}
+left: 350px;}
 
 
 .quickwwatable{position: relative;
@@ -704,25 +704,36 @@ left: 100px;
 border-collapse: separate;
   border-spacing: 20px 20px;}
   .quickresourcetable{position: relative;
-    top: 200px;
+    top: 150px;
   right: 310px;
   border-collapse: separate;
     border-spacing: 20px 20px; }
 .quicklinkwwa{position: relative;
 left: 100px;}
 .quicklinkresources{position: relative;
-right: 310px;
-top: 200px;}
+right: 300px;
+top: 150px;}
 .sql{color:black;
 font-size: 12px;}
 
+.quicklinkcontact{position: relative;
+bottom: 240px;
+left:100px; }
 
+.quickcontacttable{position: relative;
+bottom: 240px;
+left: 60px;
+border-collapse: separate;
+  border-spacing: 20px 20px;
+
+}
 .rocketicon{position: absolute;
-top: 200px;
+top: 130px;
 left:450px;
 height: 50px;
 width:50px;
 }
+
 
 
 
@@ -768,4 +779,18 @@ body {
 .shadow{filter: drop-shadow(3px 3px 3px #222);}
 .shadow:hover{filter: drop-shadow(6px 6px 6px #222);}
 
-.slick-arrow{color: black;}
+.slick-prev:before,
+.slick-next:before {
+  background-color: black;
+  border-radius: 100%;
+    color:black;
+}
+
+
+.fa-phone-volume{padding:3%;
+  transform:
+rotate(330deg);}
+
+
+.fa-envelope{color: white;
+padding:3%;}
