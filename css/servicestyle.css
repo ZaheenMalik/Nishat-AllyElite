@@ -130,7 +130,7 @@ center;}
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-
+  ;
   z-index: 1;
   margin-top: 1px;
 }
@@ -151,6 +151,7 @@ border-width: thick;}
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 
 /************************dropdowns*********************************/
 
@@ -248,7 +249,7 @@ font-size: 15px;}
 }
 
 
-/* firstpage */
+/* heading first */
 
 .container-fluid{
 background-color: black;
@@ -277,66 +278,79 @@ align-self: center;}
  .secondhomepage1{position: absolute;
  top: 50px;
 background-color: #e8e6df;
-height: 1350px;
+height: 9300px;
 width: 100%;
-box-shadow: 10px 10px 5px 10px  grey;
-
 }
 
-.aboutuspar{background-color: none;
-  font-weight: bolder;
-  color: black;
-padding:5%;
+
+
+.mainheading{position: relative;
+top: 200px;
+text-align: center;
+font-family: 'Lemonada', cursive;}
+
+
+.services{position: relative;
+top: 280px;}
+
+
+.service1{background-color: white;
+  height: 400px;
+}
+
+.service2{background-color:#e8e6df;
+height: 400px;}
+
+.serviceimage{position: relative;
+  opacity: 100%;
+}
+
+.serviceimage:hover{opacity: 100%;}
+
+.serviceheading{text-align: center;
 position: relative;
-top:300px ;
-align-self: center;
-margin-left: 240px;
-margin-right: 110px;
-font-family: 'Slabo 27px', serif;
-line-height: 35px;
-padding:6%;
+top:50px;
+font-size: 40px;
+color: black;}
+.serviceheading:hover{color: black;}
+
+
+.servicepar{text-align: center;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+font-size: 25px;}
+
+
+.btnlearn {
+  color: white;
+border-radius:15px;
+  background-color: black;
+  background-image: none;
+  border-color: #eae7e6;
+  border-width: thick;
+  margin-left: 205px;
+  margin-top:15px;
+  margin-bottom:0;
+}
+
+.btnlearn:hover {
+  color: black;
+  background-color: #eae7e6;
+  border-color: #ac090a;
+text-decoration: none;
+
 }
 
 
-.secondpart{position: absolute;
-top:350px;
-margin-left: 550px;}
-
-.row{margin-left: 240px;
-margin-right: 200px;}
-
-.benefits{position: relative;
-top:260px;}
-
-.col-lg-4{padding: 4%;}
 
 
-
-.job-openings{position: absolute;
-top: 1300px;
-height:400px;
-background-color:#e8e6df ;
-}
-
-
-.image{position: absolute;
-top: 120px;
-right:0px;}
-
-.card{margin-top: 20px;
-box-shadow: 10px 10px 5px  grey;}
-.card:hover{box-shadow: 10px 10px 10px 10px grey;}
-
-.jobhunt{position: relative;
-top:300px;
-left: -40px;}
-/* footer */
-
+/*************** footer *************************/
 
 
 .footer{position: absolute;
 
-top: 1700px;
+top: 9350px;
 background-color: #cfcdc6;
 width: 100%;height: 750px;
 box-sizing: border-box;
@@ -372,20 +386,20 @@ left: 350px;}
 
 
 .quickwwatable{position: relative;
-left: -190px;
+left: 80px;
 border-collapse: separate;
   border-spacing: 20px 20px;}
   .quickresourcetable{position: relative;
-    top: 200px;
-  right: 462px;
+    top: 150px;
+  right: 363px;
   border-collapse: separate;
     border-spacing: 20px 20px; }
 .quicklinkwwa{position: relative;
-left: -180px;
+left: 100px;
 right: 40px;}
 .quicklinkresources{position: relative;
-right: 445px;
-top: 200px;}
+right: 345px;
+top: 150px;}
 .sql{color:black;
 font-size: 12px;}
 
@@ -406,6 +420,7 @@ left:450px;
 height: 50px;
 width:50px;
 }
+
 
 .fa-phone-volume{padding:3%;
   transform:
