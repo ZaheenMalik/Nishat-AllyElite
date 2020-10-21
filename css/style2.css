@@ -7,10 +7,11 @@
 #ac090a -red for logo that i want **/
 /**********************************navbarclass***********************/
 body {
+    font-family: 'Noto Sans JP', sans-serif;
     margin: 0px;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 5640px;
     box-sizing: border-box;
     overflow-x: hidden;}
 
@@ -25,6 +26,12 @@ body {
 * {
     box-sizing: inherit;
 }
+
+.btnlearn:focus{outline:none;
+}
+
+
+
 .navbar{width: 100%;
 height:100px;}
 
@@ -330,6 +337,8 @@ font-family:'Proza Libre', sans-serif; }
 }
 
 
+.whole-content{min-height:3900px; }
+
 .homepageheading1{font-family: 'Noto Serif', serif;
 position:relative;
 top: 60px;
@@ -376,7 +385,7 @@ margin-bottom: 6px;}
  top: 1490px;
 background-color: #cfcdc6;
 height: 2400px;
-min-height: 100vh;width: 100%;
+width: 100%;
 }
 
 
@@ -412,28 +421,7 @@ height: 300px;
 box-sizing: border-box;
 }
 
- .footer{position: absolute;
 
-top: 5390px;
-background-color: #cfcdc6;
-width: 100%;height: 750px;
-box-sizing: border-box;
-}
-
-
-.footerhead{ font-family: 'Noto Serif', serif;
-position:relative;
-top: 60px;
-text-align: center;
-color: black; }
-.footerhr{border: solid #ac090a 2px;
-border-top: none;
-border-width: 2px;
-position: relative;
-top: 70px;
-width: 3%;
-align-self: center;
-margin-bottom: 6px;}
 /***************core competencies *****************/
 
 
@@ -687,53 +675,6 @@ width: 40%;
 .btn-outline-light:hover{
 font-weight: bold;
 }
-/*********************footer****************************************/
-.quicklinkcontent{position: relative;
-top: 90px;
-font-size: 15px;}
-.quickservicetable{border-collapse: separate;
-  border-spacing: 20px 20px;
-position: relative;
-left: 180px;}
-
-.quicklinkservice{position: relative;
-left: 350px;}
-
-
-.quickwwatable{position: relative;
-left: 100px;
-border-collapse: separate;
-  border-spacing: 20px 20px;}
-  .quickresourcetable{position: relative;
-    top: 150px;
-  right: 310px;
-  border-collapse: separate;
-    border-spacing: 20px 20px; }
-.quicklinkwwa{position: relative;
-left: 100px;}
-.quicklinkresources{position: relative;
-right: 300px;
-top: 150px;}
-.sql{color:black;
-font-size: 12px;}
-
-.quicklinkcontact{position: relative;
-bottom: 240px;
-left:100px; }
-
-.quickcontacttable{position: relative;
-bottom: 240px;
-left: 60px;
-border-collapse: separate;
-  border-spacing: 20px 20px;
-
-}
-.rocketicon{position: absolute;
-top: 130px;
-left:450px;
-height: 50px;
-width:50px;
-}
 
 
 
@@ -768,12 +709,66 @@ width:50px;
   border-radius: 100%;
     color:black;
 }
+/*********************footer****************************************/
+
+.footer{position: absolute;
+top:5390px;
+height:300px;
+background-color: black;
+width: 100%;}
+
+.footerimagesection{background-color: red;
+  position: absolute;
+top: 5690px;
+height:200px;}
 
 
-.fa-phone-volume{padding:3%;
+
+
+
+
+.logohead{position: relative;
+
+padding-top: 2%;
+color: white;}
+
+
+.contact-footer{color: #ac090a;
+position: relative;
+left: 40px;
+top: 40px;
+}
+
+
+.fa-phone-volume{padding-right:1%;
+  padding-left: 3%;
   transform:
-rotate(330deg);}
+rotate(330deg);
+color: white;}
 
 
-.fa-envelope{color: white;
-padding:3%;}
+.fa-envelope{color: whte;
+padding-right:1%;
+padding-left: 3%;
+}
+
+
+.sql{padding-top: 1%;
+  position: relative;top: 40px;
+  color: white;
+
+}
+
+
+.sql2{color: white;}
+
+
+.tablesql{width: 60%;
+position: relative;
+left:600px;
+bottom: 140px;
+color: white;}
+
+
+.linkshead{height: 50px;
+color: #ac090a;}

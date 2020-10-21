@@ -17,6 +17,10 @@ body {
 * {
     box-sizing: inherit;
 }
+
+.btnlearn:focus{outline:none;
+}
+
 .navbar{width: 100%;
 height:100px;}
 
@@ -335,82 +339,54 @@ left: -40px;}
 
 
 .footer{position: absolute;
-
-top: 1700px;
-background-color: #cfcdc6;
-width: 100%;height: 750px;
-box-sizing: border-box;
-}
+top:1700px;
+height:300px;
+background-color: black;
+width: 100%;}
 
 
-.footerhead{ font-family: 'Noto Serif', serif;
-position:relative;
-top: 60px;
-text-align: center;
-color: black; }
-.footerhr{border: solid #ac090a 2px;
-border-top: none;
-border-width: 2px;
+.logohead{position: relative;
+
+padding-top: 2%;
+color: white;}
+
+
+.contact-footer{color: #ac090a;
 position: relative;
-top: 70px;
-width: 3%;
-align-self: center;
-margin-bottom: 6px;}
-
-
-
-.quicklinkcontent{position: relative;
-top: 90px;
-font-size: 15px;}
-.quickservicetable{border-collapse: separate;
-  border-spacing: 20px 20px;
-position: relative;
-left: 180px;}
-
-.quicklinkservice{position: relative;
-left: 350px;}
-
-
-.quickwwatable{position: relative;
-left: -190px;
-border-collapse: separate;
-  border-spacing: 20px 20px;}
-  .quickresourcetable{position: relative;
-    top: 200px;
-  right: 462px;
-  border-collapse: separate;
-    border-spacing: 20px 20px; }
-.quicklinkwwa{position: relative;
-left: -180px;
-right: 40px;}
-.quicklinkresources{position: relative;
-right: 445px;
-top: 200px;}
-.sql{color:black;
-font-size: 12px;}
-
-.quicklinkcontact{position: relative;
-bottom: 240px;
-left:100px; }
-
-.quickcontacttable{position: relative;
-bottom: 240px;
-left: 60px;
-border-collapse: separate;
-  border-spacing: 20px 20px;
-
-}
-.rocketicon{position: absolute;
-top: 130px;
-left:450px;
-height: 50px;
-width:50px;
+left: 40px;
+top: 40px;
 }
 
-.fa-phone-volume{padding:3%;
+
+.fa-phone-volume{padding-right:1%;
+  padding-left: 3%;
   transform:
-rotate(330deg);}
+rotate(330deg);
+color: white;}
 
 
-.fa-envelope{color: white;
-padding:3%;}
+.fa-envelope{color: whte;
+padding-right:1%;
+padding-left: 3%;
+}
+
+
+.sql{padding-top: 1%;
+  position: relative;top: 40px;
+  color: white;
+
+}
+
+
+.sql2{color: white;}
+
+
+.tablesql{width: 60%;
+position: relative;
+left:600px;
+bottom: 140px;
+color: white;}
+
+
+.linkshead{height: 50px;
+color: #ac090a;}

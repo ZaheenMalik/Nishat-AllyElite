@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 1150px;
     box-sizing: border-box;
     overflow-x: hidden;}
 
@@ -20,6 +20,7 @@ body {
 
 .btnlearn:focus{outline:none;
 }
+
 .navbar{width: 100%;
 height:100px;}
 
@@ -251,9 +252,7 @@ font-size: 15px;}
   background-size: 100% 100%;
 }
 
-
-/* heading first */
-
+/*************page*******************/
 .container-fluid{
 background-color: black;
 box-sizing: border-box;
@@ -281,78 +280,18 @@ align-self: center;}
  .secondhomepage1{position: absolute;
  top: 50px;
 background-color: #e8e6df;
-height: 9300px;
+height: 800px;
 width: 100%;
-}
-
-
-
-.mainheading{position: relative;
-top: 200px;
-text-align: center;
-font-family: 'Lemonada', cursive;}
-
-
-.services{position: relative;
-top: 280px;}
-
-
-.service1{background-color: white;
-  height: 400px;
-}
-
-.service2{background-color:#e8e6df;
-height: 400px;}
-
-.serviceimage{position: relative;
-  opacity: 100%;
-}
-
-.serviceimage:hover{opacity: 100%;}
-
-.serviceheading{text-align: center;
-position: relative;
-top:50px;
-font-size: 40px;
-color: black;}
-.serviceheading:hover{color: black;}
-
-
-.servicepar{text-align: center;
-  padding-top: 10%;
-  padding-left: 10%;
-  padding-right: 10%;
-font-size: 25px;}
-
-
-.btnlearn {
-  color: white;
-border-radius:15px;
-  background-color: black;
-  background-image: none;
-  border-color: #eae7e6;
-  border-width: thick;
-  margin-left: 205px;
-  margin-top:15px;
-  margin-bottom:0;
-}
-
-.btnlearn:hover {
-  color: black;
-  background-color: #eae7e6;
-  border-color: #ac090a;
-text-decoration: none;
+box-shadow: 10px 10px 5px 10px  grey;
 
 }
 
 
 
-
-/*************** footer *************************/
-
+/* footer */
 
 .footer{position: absolute;
-top:9350px;
+top:850px;
 height:300px;
 background-color: black;
 width: 100%;}
