@@ -48,7 +48,7 @@ margin:2px 2px 2px 2px;}
 
   .navcntnt{color: white;
   padding-right:0;
-  margin:  auto 16px auto 16px;
+  margin:  auto 20px auto 20px;
 
 }
   .navcntnt:hover{color: grey;
@@ -378,17 +378,20 @@ rotate(330deg);
 color: white;}
 
 
-.fa-envelope{color: whte;
+
+.fa-envelope{color: white;
 padding-right:1%;
 padding-left: 3%;
 }
 
 
-.sql{padding-top: 1%;
+.sql1{padding-top: 1%;
   position: relative;top: 40px;
   color: white;
 
 }
+
+
 
 
 .sql2{color: white;}
@@ -403,3 +406,15 @@ color: white;}
 
 .linkshead{height: 50px;
 color: #ac090a;}
+
+
+.contact-footer:hover{color:grey;
+text-decoration:none;}
+
+
+.sql2:hover{color:grey;
+text-decoration:none;}
+
+
+.sql1:hover{color:grey;
+text-decoration:none;}

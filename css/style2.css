@@ -7,11 +7,10 @@
 #ac090a -red for logo that i want **/
 /**********************************navbarclass***********************/
 body {
-    font-family: 'Noto Sans JP', sans-serif;
     margin: 0px;
     padding: 0;
     width: 100%;
-    height: 5640px;
+    height: 100vh;
     box-sizing: border-box;
     overflow-x: hidden;}
 
@@ -29,9 +28,6 @@ body {
 
 .btnlearn:focus{outline:none;
 }
-
-
-
 .navbar{width: 100%;
 height:100px;}
 
@@ -60,12 +56,12 @@ margin:2px 2px 2px 2px;}
 
   .navcntnt{color: white;
   padding-right:0;
-  margin:  auto 16px auto 16px;
+  margin:  auto 20px auto 20px;
 
 }
   .navcntnt:hover{color: grey;
   background-color: #ac090a;
-  border-radius: 15px 50px;
+  border-radius: 20px 20px;
 }
 
   .btncntct {
@@ -145,7 +141,7 @@ center;}
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-
+  ;
   z-index: 1;
   margin-top: 1px;
 }
@@ -166,6 +162,7 @@ border-width: thick;}
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 
 /************************dropdowns*********************************/
 
@@ -261,6 +258,9 @@ font-size: 15px;}
   background: no-repeat center center;
   background-size: 100% 100%;
 }
+
+
+
 /*************************color palette******************************/
 /*** #e3e3e3-grey
 #c93032 -logo red
@@ -466,7 +466,36 @@ height: 800px;
 
 
 
-.coreimage{width: 60%;
+.coreimage1{width: 350px;
+  height: 400px;
+padding:4%;
+align-self: center;
+position: relative;
+left: 110px;
+z-index: 1;}
+
+
+.coreimage2{width: 350px;
+  height: 350px;
+padding:4%;
+align-self: center;
+position: relative;
+left: 110px;
+z-index: 1;}
+
+
+.coreimage3{width:350px;
+  height: 350px;
+padding:4%;
+align-self: center;
+position: relative;
+left: 110px;
+z-index: 1;}
+
+
+
+.coreimage4{width: 350px;
+  height: 300px;
 padding:4%;
 align-self: center;
 position: relative;
@@ -747,17 +776,20 @@ rotate(330deg);
 color: white;}
 
 
-.fa-envelope{color: whte;
+
+.fa-envelope{color: white;
 padding-right:1%;
 padding-left: 3%;
 }
 
 
-.sql{padding-top: 1%;
+.sql1{padding-top: 1%;
   position: relative;top: 40px;
   color: white;
 
 }
+
+
 
 
 .sql2{color: white;}
@@ -772,3 +804,15 @@ color: white;}
 
 .linkshead{height: 50px;
 color: #ac090a;}
+
+
+.contact-footer:hover{color:grey;
+text-decoration:none;}
+
+
+.sql2:hover{color:grey;
+text-decoration:none;}
+
+
+.sql1:hover{color:grey;
+text-decoration:none;}

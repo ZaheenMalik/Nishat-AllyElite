@@ -4,14 +4,15 @@ body {
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    overflow-x: hidden;}
+    overflow-x: hidden;
+}
 
-    html
-    {background: url(photos/2452.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover; }
+html
+{background: url(photos/2452.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
 
 
       * {
@@ -48,7 +49,7 @@ margin:2px 2px 2px 2px;}
 
   .navcntnt{color: white;
   padding-right:0;
-  margin:  auto 16px auto 16px;
+  margin:  auto 20px auto 20px;
 
 }
   .navcntnt:hover{color: grey;
@@ -265,7 +266,7 @@ width: 100%;}
 
 .homepageheading1{font-family: 'Noto Serif', serif;
 position:relative;
-top: 120px;
+top: 70px;
 text-align: center;
 color: black;}
 
@@ -274,29 +275,34 @@ color: black;}
 border-top: none;
 border-width: 2px;
 position: relative;
-top: 130px;
+top: 80px;
 width: 5%;
 align-self: center;}
 
  .secondhomepage1{position: absolute;
- top: 50px;
+ top: 100px;
 background-color: #e8e6df;
 height: 1000px;
 width: 100%;
+
+
 }
 
 
-/*************** footer *************************/
+
+/* footer */
+
 
 
 .footer{position: absolute;
-top:1050px;
+top:2850px;
 height:300px;
 background-color: black;
 width: 100%;}
 
 
 .logohead{position: relative;
+
 padding-top: 2%;
 color: white;}
 
@@ -315,17 +321,20 @@ rotate(330deg);
 color: white;}
 
 
-.fa-envelope{color: whte;
+
+.fa-envelope{color: white;
 padding-right:1%;
 padding-left: 3%;
 }
 
 
-.sql{padding-top: 1%;
+.sql1{padding-top: 1%;
   position: relative;top: 40px;
   color: white;
 
 }
+
+
 
 
 .sql2{color: white;}
@@ -340,3 +349,15 @@ color: white;}
 
 .linkshead{height: 50px;
 color: #ac090a;}
+
+
+.contact-footer:hover{color:grey;
+text-decoration:none;}
+
+
+.sql2:hover{color:grey;
+text-decoration:none;}
+
+
+.sql1:hover{color:grey;
+text-decoration:none;}
