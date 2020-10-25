@@ -32,16 +32,40 @@ JavaScript
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
 
 <script>
-console.log("Hi");
-var $jq = jQuery.noConflict();
-$jq(document).ready(function(){
+  console.log("Hi");
+  var $jq = jQuery.noConflict();
+  $jq(document).ready(function(){
 
-$jq('.items').slick({
-infinite: true,
-slidesToShow: 4,
-slidesToScroll: 3
-});
-});
+  $jq('.items').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 3
+  });
+  });
+
+  function sendEmail() {
+    var firstName = document.getElementById('FirstName').value;
+    var lastName = document.getElementById('LastName').value;
+    var emailId = document.getElementById('EmailId').value;
+    var msg = document.getElementById('Message').value;
+    var emailText = "<html><h4>Hurray! We got a new lead. Below are the details.</h4>" + "<h5>First Name: " + firstName + "</h5><h5>Last Name: " + lastName + "</h5><h5>Email Address: " + emailId + "</h5><h5>Message: " + msg + "</h5></html>";
+    var subjectText = "New Lead - " + firstName + " " + lastName;
+      Email.send({
+          Host: "smtp.gmail.com",
+          Username: "website@ally-elite.com",
+          Password: "website@apw",
+          To: 'leads@ally-elite.com',
+          From: "website@ally-elite.com",
+          Subject: subjectText,
+          Body: emailText,
+      })
+          .then(function (message) {
+          document.getElementById('FirstName').value = ""
+          document.getElementById('LastName').value = ""
+          document.getElementById('EmailId').value = ""
+          document.getElementById('Message').value = ""
+          });
+  }
 </script>
 
 
@@ -215,7 +239,7 @@ slidesToScroll: 3
     <!--------------------------first grid-------------------------->
 
 
-<div class="container-fluid">
+<div>
   <section class="homepage " id="home">
     <div class="container" class="lax" data-lax-translate-y="0 0, 400 -400"style="center">
       <h1 class="mainheading ">ALLY-ELITE:</h1>
@@ -476,29 +500,29 @@ window.requestAnimationFrame(updateLax)
   </div>
   <!---------------------------- form ----------------------------->
    <div class=" form1 col-lg-6">
-    <form>
-      <div class="form-row">
-        <div class="col " >
-          <input type="text" style="width:275px;"class="form-control firstpart" placeholder="First name">
-        </div>
-        <div class="col">
-          <input type="text" style="width:275px;" class="form-control firstpart" placeholder="Last name">
-        </div>
-      </div>
+     <form method="post">
+       <div class="form-row">
+         <div class="col " >
+           <input type="text" style="width:275px;"class="form-control firstpart" placeholder="First Name" id="FirstName">
+         </div>
+         <div class="col">
+           <input type="text" style="width:275px;" class="form-control firstpart" placeholder="Last Name" id="LastName">
+         </div>
+       </div>
 
 
-        <div>
-       <input type="text" class="form-control"  cols="40" rows="1" placeholder="Email" style="width:580px;">
-      </div>
-      <div class="">
+         <div>
+        <input type="text" class="form-control"  cols="40" rows="1" placeholder="Email" style="width:580px;" id="EmailId">
+       </div>
+       <div class="">
 
- <textarea name="your-message" cols="40" rows="3" class="form-control wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message" style="margin-top: 30px; width: 580px; height: 107px;"></textarea>
-      </div>
+       <textarea name="your-message" cols="40" rows="3" class="form-control wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message" id="Message" style="margin-top: 30px; width: 580px; height: 107px;"></textarea>
+       </div>
 
 
+       <input type="button" class="btn btn-outline-light" value="Submit" onclick="sendEmail()" />
 
-    <button type="submit" class="btn btn-outline-light">Submit</button>
-    </form>
+     </form>
   </div alt="end of column">
 </div  alt="endofrow">
 </section>
