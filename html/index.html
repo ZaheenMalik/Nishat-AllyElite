@@ -17,7 +17,7 @@
 
     <title>Home</title>
     <!-- css style sheet -->
-    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -239,9 +239,9 @@ JavaScript
     <!--------------------------first grid-------------------------->
 
 
-<div>
+
   <section class="homepage " id="home">
-    <div class="container" class="lax" data-lax-translate-y="0 0, 400 -400"style="center">
+    <div class="container" class="lax" data-lax-translate-y="0 0, 400 -400"style="center;">
       <h1 class="mainheading ">ALLY-ELITE:</h1>
       <h1 class="secondmainheading ">GLOBAL SOLUTIONS</h1>
       <h3 class="thirdmainheading "> Specialized Consulting</h3>
@@ -250,8 +250,10 @@ JavaScript
 
     </div>
 
+<div class="homevideo">
 
-        <video  class="homevideo parallex"  autoplay muted><script>
+
+        <video style="width:100%;"  class="homevideos"  autoplay muted><script>
             document.getElementById('vid').play();
         </script>Your browser doesn't support vedio tag
         <source src="../image/home.video.mp4" type="video/mp4">
@@ -375,7 +377,7 @@ window.requestAnimationFrame(updateLax)
 
 
 
-<section id="testimonials"class="secondhomepage3">
+<section id="testimonials"class="secondhomepage3 ">
   <h2 class="homepageheading3">What Our Clients Have To Say About Us
 </h2>
   <hr class="homepagehr3">
@@ -503,7 +505,7 @@ window.requestAnimationFrame(updateLax)
      <form method="post">
        <div class="form-row">
          <div class="col " >
-           <input type="text" style="width:275px;"class="form-control firstpart" placeholder="First Name" id="FirstName">
+           <input type="text" style="width:275px; margin-left:27px;"class="form-control firstpart" placeholder="First Name" id="FirstName">
          </div>
          <div class="col">
            <input type="text" style="width:275px;" class="form-control firstpart" placeholder="Last Name" id="LastName">
@@ -512,11 +514,11 @@ window.requestAnimationFrame(updateLax)
 
 
          <div>
-        <input type="text" class="form-control"  cols="40" rows="1" placeholder="Email" style="width:580px;" id="EmailId">
+        <input type="text" class="form-control"  cols="40" rows="1" placeholder="Email" style="width:585px;margin-left:27px;" id="EmailId">
        </div>
        <div class="">
 
-       <textarea name="your-message" cols="40" rows="3" class="form-control wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message" id="Message" style="margin-top: 30px; width: 580px; height: 107px;"></textarea>
+       <textarea name="your-message" cols="40" rows="3" class="form-control wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message" id="Message" style="margin-left:27px;margin-top: 30px; width: 585px; height: 107px;"></textarea>
        </div>
 
 
