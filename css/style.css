@@ -529,11 +529,12 @@ text-decoration: none;
 
 .cosmos{position: relative;
   top: 130px;
-left: 134px;
 height: 600px;
 width: 80%;
-align-items: center;
-position:relative;
+align-self: center;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -646,9 +647,9 @@ position:relative;
             color: black;
             position: relative;
             bottom: 350px;
-            align-self: auto;
+            align-self: auto;}
 
-          }
+
 .captions{position: relative;
   bottom: 860px;
   left: 900px;
@@ -668,9 +669,9 @@ position: relative;
 bottom: 500px;
 z-index: 1}
 .form1{background-color: black;
-
 height: 600px;
 }
+
 
   .cntctinfo2{padding-left: 11%;
 align-items: center;}
@@ -679,6 +680,7 @@ font-size:40px;
 z-index: 1;
 }
 
+
  .imgbgcntct{z-index: 0;
 height: 600px;
 position: relative;
@@ -686,21 +688,27 @@ top: 0px;
 }
 
 
-/* .emailinfo{}
-  .emailinfo2{}
-    .number{} */
+
 
  .form-control{margin-top: 40px;
-  margin-left: 27px;
-background-color: transparent;
+  background-color: transparent;
 color: white;}
 
 
-.firstpart{width:250px;}
+.firstpart{width:80%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;}
 
-.secondpart{width:585px;}
+.secondpart{width:90%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;}
 
-.message{margin-top: 70px;}
+.message{width:90%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;}
 
 
  .btn-outline-light{margin-top: 60px;
@@ -717,7 +725,7 @@ font-weight: bold;
 
 
 
-
+/*************clients*******************/
 
 .items {
     width: 90%;
