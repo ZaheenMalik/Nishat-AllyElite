@@ -529,7 +529,7 @@ text-decoration: none;
 
 .cosmos{position: relative;
   top: 130px;
-left: 132px;
+left: 134px;
 height: 600px;
 width: 80%;
 align-items: center;
@@ -691,14 +691,17 @@ top: 0px;
     .number{} */
 
  .form-control{margin-top: 40px;
-  margin-left: 2px;
-  margin-right: 2px;
+  margin-left: 27px;
 background-color: transparent;
 color: white;}
 
 
-  /* .firstpart{margin-top: 80px; } */
-.form-control-lg{padding-bottom: 150px;}
+.firstpart{width:250px;}
+
+.secondpart{width:585px;}
+
+.message{margin-top: 70px;}
+
 
  .btn-outline-light{margin-top: 60px;
   margin-left:200px;
