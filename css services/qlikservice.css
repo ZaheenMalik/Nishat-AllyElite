@@ -19,6 +19,7 @@ body {
 }
 
 
+
 .btnlearn:focus{outline:none;
 }
 
@@ -353,74 +354,26 @@ margin-top:70px;}
 
 
 /********videos***********/
-.video{position: absolute;
+.reports{position: absolute;
 top:1800px;
-height:900px;
+height:1400px;
 width: 100%;
 background-color: #e8e6df;}
 
-.videorow{position: relative;
-top:150px;}
-
-.videostyling{border-radius: 15px;}
-
-
-
-.videostyle{border-radius: 15px ;
-box-shadow: 2px 2px 2px 2px grey;
-align-self: center;
-display: block;
-  margin-left: auto;
-  margin-right: auto;}}
-
-
-
-
-.col-lg-10{align-self: center;
+.col-lg-4{align-self: center;
 display: block;
   margin-left: auto;
   margin-right: auto;}
 
-  .carousel-control-next-icon1 .carousel-control-prev-icon1 {
 
-    outline: black;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    border: 1px solid black;
-    background-image: none;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: transparent no-repeat center center;
+.card{background-color: red;}
 
-  }
-  .carousel-control-next-icon1:after
-  {  position: relative;
-  top:0px;
 
-    content: '>';
-    font-size: 55px;
-    color: black;
-    position: relative;
-    bottom: 350px;
-    align-self: auto;
-  }
-
-  .carousel-control-prev-icon1:after {
-    position: relative;
-  top:0px;
-
-    content: '<';
-    font-size: 55px;
-    color: black;
-    position: relative;
-    bottom: 350px;
-    align-self: auto;}
 
 
 /* get in touch section */
 .interested{position: absolute;
-top:2700px;
+top:3200px;
 height:300px;
 width: 100%;
 background-color: white;}
@@ -461,7 +414,7 @@ font-weight: bold;}
 /* footer */
 
 .footer{position: absolute;
-top:3000px;
+top:3600px;
 height:300px;
 background-color: black;
 width: 100%;}

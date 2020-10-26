@@ -498,6 +498,7 @@ z-index: 1;}
 padding:4%;
 align-self: center;
 position: relative;
+left: 110px;
 z-index: 1;}
 
 
@@ -660,24 +661,66 @@ color: white;
 /*********************contact***********************************/
 
 
-   .contactinfo1{
-align-items: center;
-padding: 17%;
-padding-left: 24%;
+   .contactinfo1{text-align:center;
+margin-top: 10%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
 color: white;
 position: relative;
 bottom: 500px;
 z-index: 1}
-.form1{background-color: black;
-height: 600px;
+
+
+
+
+.sql3{padding-top: 1%;
+  position: relative;
+  top: 10px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  color: white;
+
+}
+
+.sql3:hover{color: grey;
+text-decoration: none;}
+
+
+.cntcthead{
+font-size:40px;
+
 }
 
 
-  .cntctinfo2{padding-left: 11%;
-align-items: center;}
-.cntcthead{padding-bottom:4%;
-font-size:40px;
-z-index: 1;
+
+.cntcthead2{font-size:40px;}
+
+
+
+
+
+
+
+
+
+.fa-instagram{color: white;
+}
+
+.fa-youtube{color: white;
+  margin-left: 2%;
+  margin-right: 2%}
+
+.fa-pinterest-square{color: white;}
+
+
+.fa-2x:hover{color: grey;
+text-decoration: none;}
+/*************form*************/
+.form1{background-color: black;
+height: 600px;
 }
 
 
@@ -686,8 +729,6 @@ height: 600px;
 position: relative;
 top: 0px;
 }
-
-
 
 
  .form-control{margin-top: 40px;
@@ -830,3 +871,9 @@ text-decoration:none;}
 
 .sql1:hover{color:grey;
 text-decoration:none;}
+
+
+
+.social{position: relative;
+bottom: 150px;
+margin-left: 970px;}
