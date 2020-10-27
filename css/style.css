@@ -788,7 +788,8 @@ font-weight: bold;
 .shadow:hover{filter: drop-shadow(6px 6px 6px #222);}
 
 .slick-prev:before,
-.slick-next:before {
+.slick-next:before {position: relative;
+  bottom:70px;
   background-color: black;
   border-radius: 100%;
     color:black;
