@@ -88,7 +88,8 @@ margin:2px 2px 2px 2px;}
 
 
 
-  .logo{width: 14.5%;
+  .logo{width: 200px;
+    height:80px;
   position: absolute;
   top: 7px;
 
@@ -619,6 +620,7 @@ display: block;
 
 
           .carousel-control-next-icon1 .carousel-control-prev-icon1 {
+            display:none;
             position: relative;
             bottom: 200px;
             outline: black;
@@ -633,7 +635,7 @@ display: block;
 
           }
           .carousel-control-next-icon1:after
-          {
+          {display: none;
             content: '>';
             font-size: 55px;
             color: black;
@@ -643,6 +645,7 @@ display: block;
           }
 
           .carousel-control-prev-icon1:after {
+display: none;
             content: '<';
             font-size: 55px;
             color: black;
@@ -706,18 +709,7 @@ font-size:40px;
 
 
 
-.fa-instagram{color: white;
-}
 
-.fa-youtube{color: white;
-  margin-left: 2%;
-  margin-right: 2%}
-
-.fa-pinterest-square{color: white;}
-
-
-.fa-2x:hover{color: grey;
-text-decoration: none;}
 /*************form*************/
 .form1{background-color: black;
 height: 600px;
@@ -877,4 +869,20 @@ text-decoration:none;}
 
 .social{position: relative;
 bottom: 150px;
-margin-left: 970px;}
+margin-left: 970px;
+size:20%;}
+
+
+
+.fa-instagram{color: white;
+}
+
+.fa-youtube{color: white;
+  margin-left: 2%;
+  margin-right: 2%}
+
+.fa-pinterest-square{color: white;}
+
+
+.fa-2x:hover{color: grey;
+text-decoration: none;}

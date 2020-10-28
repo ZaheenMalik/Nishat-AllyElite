@@ -527,3 +527,24 @@ text-decoration:none;}
 
 .sql1:hover{color:grey;
 text-decoration:none;}
+
+
+.social{position: relative;
+bottom: 150px;
+margin-left: 970px;
+size:20%;}
+
+
+
+.fa-instagram{color: white;
+}
+
+.fa-youtube{color: white;
+  margin-left: 2%;
+  margin-right: 2%}
+
+.fa-pinterest-square{color: white;}
+
+
+.fa-2x:hover{color: grey;
+text-decoration: none;}
