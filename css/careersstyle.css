@@ -64,7 +64,10 @@ margin:2px 2px 2px 2px;}
     background-image: none;
     border-color: #eae7e6;
     border-width: thick;
-    margin-left: 20px;
+    align-self: center;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
     margin-top:2px;
     margin-bottom: 6px;
   }
