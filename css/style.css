@@ -466,6 +466,10 @@ height: 800px;
 
 
 
+.row2{margin-bottom:150px;}
+
+
+
 .coreimage1{width: 350px;
   height: 400px;
 padding:4%;
@@ -671,7 +675,7 @@ display: block;
   margin-right: auto;
 color: white;
 position: relative;
-bottom: 500px;
+top:20px ;
 z-index: 1}
 
 
